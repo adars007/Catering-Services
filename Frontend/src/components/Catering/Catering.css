@@ -1,0 +1,77 @@
+.catering-container {
+    text-align: center;
+    padding: 20px;
+    background-color:#fff2ef;
+    width: 100vw;
+    max-width: 1220px;
+    border-radius: 20px;
+    animation: fadeIn 3s;
+  }
+  .catering-container h2{
+    font-weight: 500;
+    font-size: 30px;
+    color:#000;
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .catering-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .catering-card {
+    background: #fff;
+    border-radius: 8px;
+    background-color: rgb(244, 224, 199);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: left;
+    transition: 0.5s;
+  }
+  .catering-card:hover{
+    transform: scale(1.05);
+  }
+  .catering-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .catering-card h3 {
+    margin-top: 10px;
+  }
+  
+  .catering-card p {
+    margin: 10px 0;
+  }
+  
+  .catering-card button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .catering-card button:hover {
+    background-color:antiquewhite;
+  }
+  .start-tag{
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    color: tomato;
+
+  }
+  
+  @media (max-width: 768px) {
+    .catering-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
